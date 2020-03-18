@@ -3,7 +3,7 @@
 ## Setting up Rust
 
 We recommend using [rustup][ru] to easily install the latest stable version of rust.
-Instructions should be on screen once rustup is downloaded.
+Instructions should be on the screen once rustup is downloaded.
 
 [ru]: https://rustup.rs
 
@@ -48,7 +48,7 @@ you should get `Cargo.toml`, `src/main.rs` and `config/display.ron`.
 
 ### Starter Project
 
-If you want to get running as quickly as possibly and start playing around with Amethyst, you can also use a starter project. These are specifically made for certain types of games, and will set you up with the groundwork needed to start right away.  
+If you want to get running as quickly as possible and start playing around with Amethyst, you can also use a starter project. These are specifically made for certain types of games and will set you up with the groundwork needed to start right away.  
 The `README.md` file on these will include everything you need to know to run the starter project.
 
 > **Note:** Right now, the only starter available is for 2D games. This will expand over time, and offer more options for different types of games.
@@ -59,13 +59,13 @@ The `README.md` file on these will include everything you need to know to run th
 
 In case you're doing this with `cargo`, here's what you need to do:
 
-* Add `amethyst` as dependency in your `Cargo.toml`.
+* Add `amethyst` as a dependency in your `Cargo.toml`.
 * Create a `config` folder and put a `display.ron` in it.
-* (Optional) Copy the code from one of amethyst's examples.
+* (Optional) Copy the code from one of the amethyst's examples.
 
 ### Important note on versioning
 
-Amethyst is divided in two major versions:
+Amethyst is divided into two major versions:
 
 * The released crates.io version, which is the latest version available on crates.io
 * The git (master) version, which is the current unreleased development snapshot of Amethyst available on [Github][agit]
