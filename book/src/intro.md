@@ -8,7 +8,7 @@
 Howdy! This book will teach you everything you need to know about building video
 games and interactive simulations with the Amethyst game engine. This engine is
 written entirely in [Rust][rs], a safe and fast systems programming language,
-and sports a clean and modern design. More correctly, though, Amethyst is
+and supports a clean and modern design. More correctly, though, Amethyst is
 actually a collection of separate libraries and tools that collectively make up a
 game engine.
 
@@ -54,7 +54,7 @@ Read the crate-level [API documentation][ad] for more details.
 
 Most of us have worked with quite a few game engines over the years, namely [Unity][un], [Unreal Engine][ud], [JMonkeyEngine][jme] and many more.
 While they all are pretty solid solutions if you want to
-build a quality game, each have their own pros and cons that you have to
+build a quality game, each has its pros and cons that you have to
 weigh before using them, especially in regards to performance and scalability.
 
 [un]: http://unity3d.com/
@@ -67,7 +67,7 @@ Those principles are:
 1. Modularity.
 
    Modularity is at the core of the [Unix philosophy][up], which proved itself to be an excellent way of developing software over the years.
-   You will always be free to use the built-in modules, or to write your own and integrate them easily into the engine.
+   You will always be free to use the built-in modules or to write your own and integrate them easily into the engine.
    Since modules are small and well integrated, it is easier to reason about what they do and how they relate to other modules.
 
 2. Parallelism.
@@ -105,9 +105,9 @@ And also the less known but also essential features:
 
 If you were not to use Amethyst, not only would you need to create all those features (or use pre-existing crates), but you would also need to glue the layers together.
 
-Amethyst does all of this for you, so that you can focus on making your game instead of worrying about the low-level details.
+Amethyst does all of this for you so that you can focus on making your game instead of worrying about the low-level details.
 
-Futhermore, because of the architecture of Amethyst, almost all the parts are both configurable and replaceable. This means that if you do want to change something to suit your needs, there's always a way to do it.
+Furthermore, because of the architecture of Amethyst, almost all the parts are both configurable and replaceable. This means that if you do want to change something to suit your needs, there's always a way to do it.
 
 For example, the [rodio](https://github.com/tomaka/rodio) crate is currently used for the audio features in the engine, but if you would rather use something more complex or a custom solution, all you have to do is add some glue that moves the data coming from Specs into the library that you are using to play and control the audio, without even having to touch the engine code!
 
@@ -120,6 +120,6 @@ We are always happy to welcome new contributors!
 
 To know where to start, we suggest you read our [contribution guidelines](https://github.com/amethyst/amethyst/blob/master/docs/CONTRIBUTING.md)
 
-If you want to contribute, or have questions, let us know either on [GitHub][db], or on [Discord][di].
+If you want to contribute or have questions, let us know either on [GitHub][db], or on [Discord][di].
 
 [di]: https://discord.gg/amethyst
